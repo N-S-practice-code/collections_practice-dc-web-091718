@@ -7,7 +7,7 @@ def sort_array_desc(arr)
 end
 
 def sort_array_char_count(arr)
-  arr.max_by{|el| el.size}.reverse
+  arr.sort_by{|el| el.size}.reverse
 end
 
 def swap_elements(arr)
