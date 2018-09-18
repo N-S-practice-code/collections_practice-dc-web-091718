@@ -7,6 +7,7 @@ def sort_array_desc(arr)
 end
 
 def sort_array_char_count(arr)
+  puts arr
   arr.sort{|el| puts el}.reverse
 end
 
